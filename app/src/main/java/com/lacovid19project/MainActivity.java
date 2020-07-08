@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
-                            JSONObject jsonObject = response.getJSONObject("AS").getJSONObject("total");
+                            JSONObject jsonObject = response.getJSONObject("LA").getJSONObject("total");
                             String confirmed = jsonObject.getString("confirmed");
                             String deceased = jsonObject.getString("deceased");
                             String tested = jsonObject.getString("tested");

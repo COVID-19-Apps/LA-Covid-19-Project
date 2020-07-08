@@ -201,6 +201,8 @@ public class ProfileActivity extends AppCompatActivity {
         mUsersDatabase.updateChildren(map);
 
         Toast.makeText(ProfileActivity.this, "Successfully Updated!", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(ProfileActivity.this,MainActivity.class);
+        startActivity(i);
     }
 
     private boolean isEmpty(String name, String s, String toString, String string, String s1, String gender, String toString1, String string1) {
