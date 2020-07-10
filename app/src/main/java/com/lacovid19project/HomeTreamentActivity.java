@@ -83,7 +83,7 @@ public class HomeTreamentActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:104"));
+                intent.setData(Uri.parse("tel:01982256462"));
                 startActivity(intent);
             }
         });
@@ -106,7 +106,7 @@ public class HomeTreamentActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
-                            JSONArray jsonArray = response.getJSONArray("data");
+                            JSONArray jsonArray = response.getJSONArray("image_data");
 
                             for (int i = 0; i < jsonArray.length(); i++) {
                                 JSONObject hit = jsonArray.getJSONObject(i);

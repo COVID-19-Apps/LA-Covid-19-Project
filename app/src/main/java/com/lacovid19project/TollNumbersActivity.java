@@ -82,11 +82,10 @@ public class TollNumbersActivity extends AppCompatActivity{
                             for (int i = 0; i < jsonArray.length(); i++) {
                                 JSONObject hit = jsonArray.getJSONObject(i);
                                 String sno = hit.getString("sno");
-                                String district = hit.getString("district");
-                                String phone_number = hit.getString("phone_numbers");
-                                String remarks = hit.getString("remarks");
+                                String name = hit.getString("name");
+                                String phone_number = hit.getString("phone_number");
 
-                                viewItems.add(new Toll_Numbers(sno, district, phone_number, remarks));
+                                viewItems.add(new Toll_Numbers(sno, name,phone_number));
                             }
 
                             mAdapter = new TollNumbersAdapter(TollNumbersActivity.this, viewItems);

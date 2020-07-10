@@ -60,22 +60,18 @@ public class MainActivity extends AppCompatActivity {
             "Home Treatment",
             "Toll Numbers",
             "My Health Status",
-            "Self Report",
             "Health Cares",
             "Medical stores",
             "Doctor Online Appointment",
             "Hospital Admissions",
             "Volunteer",
-            "Donors",
             "Food Supply",
             "Labs for Test",
             "Support Orphans & Vulnerable",
             "E-Pass",
             "Donate Funds",
             "Online Education",
-            "Government Orders",
             "Tweets",
-            "Videos",
             "FAQs"
 
     } ;
@@ -84,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.home,
             R.drawable.toll_numbers,
             R.drawable.health,
-            R.drawable.selfreport,
             R.drawable.healthcare,
             R.drawable.medical_store,
             R.drawable.doctor,
@@ -95,11 +90,8 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.lab,
             R.drawable.support,
             R.drawable.pass,
-            R.drawable.donate,
             R.drawable.education,
-            R.drawable.governmentorder,
             R.drawable.tweet,
-            R.drawable.video,
             R.drawable.faq
 
     };

@@ -17,9 +17,9 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:text="District"
+            android:text="Name"
             android:fontFamily="@font/nunito_bold"
-            android:id="@+id/district"
+            android:id="@+id/name"
             android:textSize="16dp"
             android:textColor="@android:color/black"
             android:layout_height="wrap_content"
@@ -33,19 +33,6 @@
             android:drawableStart="@drawable/phone"
             android:drawablePadding="5dp"
             android:drawableLeft="@drawable/phone"
-            android:textColor="@color/colorBlack"
-            android:autoLink="all"
-            android:fontFamily="@font/nunito"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:text="Remarks"
-            android:textSize="15dp"
-            android:id="@+id/remarks"
-            android:drawableStart="@drawable/desc"
-            android:drawablePadding="5dp"
-            android:drawableLeft="@drawable/desc"
             android:textColor="@color/colorBlack"
             android:autoLink="all"
             android:fontFamily="@font/nunito"
